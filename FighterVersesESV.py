@@ -220,7 +220,7 @@ def main():
     # pressed.
     parser.add_argument('-c', action="store_true", default=False,
                         dest='continuous',
-                        help='Choose a random Fighter Verse')
+                        help='Run continuosly, without LED blink or return key.')
 
     parser.add_argument('-v', '--verbose', action="store_true",
                         default=False,
